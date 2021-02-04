@@ -1,4 +1,4 @@
 # test_front
-https://github.com/stmsoft/test_front/blob/main/screen.jpg?raw=true
+http://109.110.56.92:5000/ui/index.html#/
 
 ![Screenshot](screen.jpg)
