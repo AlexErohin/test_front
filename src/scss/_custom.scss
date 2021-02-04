@@ -1,0 +1,330 @@
+// Here you can add other styles
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgb(167, 163, 163);
+}
+/////////////////////////////////////////
+
+@media all and (-ms-high-contrast: none) {
+  :not(.c-wrapper-fluid).c-wrapper .c-header-fixed ~ .c-body {
+    margin-top: 50px;
+
+    // Только используется в ИЕ
+  }
+}
+
+.nav-item a {
+  color: black;
+}
+
+.form-group {
+     margin-bottom: 1px; 
+}
+
+.form-control,
+input {
+  color: blue;
+}
+body {
+  font-size: 12px;
+  background-color: rgba(255, 255, 255,0);
+  height: 100vh;
+  font-weight: 600;
+  // overflow: hidden;
+}
+
+.handle {
+  cursor: move;
+}
+
+.c-sidebar .c-sidebar-brand {
+  color: #fff;
+//  background: #ebedef;
+}
+.c-main {
+  padding-top: 0px;
+}
+.c-main .container-fluid {
+  padding: 5px;
+  height: 100%;
+  padding-top: 0px;
+}
+
+label {
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+}
+
+.nav-item .nav-link:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: blue;
+
+  background-color: transparent;
+  border-color: transparent;
+
+  border-bottom-color: blue;
+}
+
+.c-sidebar .nav-tabs:first-child .nav-link {
+  height: 38px;
+  padding: 10px;
+}
+
+.c-sidebar .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: rgb(125, 183, 241);
+}
+
+.c-sidebar .nav-item a {
+  color: white;
+}
+
+
+.card-header
+{
+  padding: 0.45rem;
+
+}
+.card {
+  margin-bottom: 0.5rem;
+}
+.card-body {
+  padding: 0.75rem;
+}
+
+.rstm-tree-item-group {
+  display: block;
+  height: calc(100vh - 145px);
+  overflow-y: auto;
+  margin-bottom: -20px;
+}
+
+
+.modal-dialog {
+  margin: 0px;
+  margin-left: auto;
+   margin-right: auto;
+  }
+
+
+
+.scroll {
+  overflow: auto;
+  min-height: 350px;
+}
+.dialog .react-draggable {
+  position: fixed;
+  z-index: 1035;
+  width: 800px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 21, 0.2), -3px 3px 3px rgba(0, 0, 21, 0.2);
+}
+.drag-active .react-draggable {
+
+  
+  z-index: 1036;
+ 
+}
+ 
+.dialog .full-screen {
+
+  height: 100%;
+  width: 100%;
+ 
+}
+
+.modal-header {
+ 
+  padding: 10px;
+}
+
+.dialog .react-draggable .modal-body {
+  //нельзя такак селект не отображаются overflow: auto;
+  max-height: 550px;
+}
+
+@media (min-width: 600px) {
+ 
+
+  .card-search {
+    position: absolute;
+    top: 0px;
+    z-index: 1300;
+    padding: 10px;
+    margin-right: 15px;
+    background: #cbd7e4;
+  }
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #3d9eff29;
+}
+
+.react-bootstrap-table .reset-expansion-style
+{
+  padding: 0;
+  padding-left: 20px;
+  border: 0;
+}
+.react-bootstrap-table .table {
+  margin-bottom: 0px;
+}
+
+.react-bootstrap-table .table thead {
+  font-size: 90%;
+}
+
+.table th,
+.table td {
+  padding-left: 2px;
+  padding-right: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-top-color:#cdcff594
+}
+
+.table th{
+  border-top-color:#fff
+}
+
+
+.react-bootstrap-table-pagination {
+  margin: 0px;
+}
+
+.react-bootstrap-table-pagination ul {
+  margin: 0px;
+}
+
+/*
+.tree-grid-scroll {
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}*/
+
+/* колонки одной ширины, не подходит*/
+.table-responsive {
+  
+  overflow: hidden;
+}
+
+.container-fluid 
+.react-bootstrap-table .table tbody {
+  display: block;
+  height: calc(100vh - 220px);
+  overflow-y: scroll;
+  margin-bottom: 0px;
+}
+
+/*для группы*/
+.container-fluid .white-space-nowrap{
+  white-space: nowrap
+}
+
+.container-fluid 
+.react-bootstrap-table .table thead tr {
+  display: table;
+  width: 98.7%;
+  table-layout: fixed;
+}
+
+.container-fluid 
+.react-bootstrap-table .table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+
+
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #3399ff2e
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .modal .modal-content {
+    min-height: 800px;
+  }
+
+  ::-webkit-scrollbar-track {
+ 
+    border-radius: 5px;
+
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    
+  }
+
+  .jumbotron {
+    padding: 2rem;
+  }
+
+  
+
+  .react-bootstrap-table .table tr td:first-child :not(.selection-cell),
+  .react-bootstrap-table .table tr th:first-child :not(.selection-cell-header){
+    width: 30%;
+  }
+
+  .react-bootstrap-table .table tr td:first-child + td,
+  .react-bootstrap-table .table tr th:first-child + th {
+    width: 35%;
+  }
+
+
+
+  .container-fluid 
+  .react-bootstrap-table .table tbody {
+    
+    height: calc(100vh - 110px);
+  }  
+
+  .table-width-900{
+    min-width: 800px;
+  }
+}
+
+
+.selection-cell,
+.selection-cell-header {
+
+  width: 30px;
+}
+
+.form-control-sm {
+    padding: 3px;
+}
+
+/*
+.react-datepicker__tab-loop{
+  position: fixed;
+  z-index: 1000;
+  transform: translate3d(-15px, -28px, 0px);
+    
+}*/

@@ -1,0 +1,70 @@
+// Variable overrides
+/*.nav-link {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+*/
+.react-calendar-timeline {
+  min-width: 1600px;
+}
+
+.react-calendar-timeline .rct-item .rct-item-content {
+  /* position: sticky; */
+  position: -webkit-sticky;
+  /* left: 0px; */
+  /* overflow: hidden; */
+  display: inline-block;
+  /* border-radius: 2px; */
+  padding1: 5px;
+  height: 100%;
+  line-height: 10px;
+  font-size: 12px;
+}
+
+.timeline.react-calendar-timeline .rct-header-root {
+  background: #39f;
+}
+
+.timeline.react-calendar-timeline .rct-scroll {
+  overflow-x: hidden;
+
+  touch-action: auto;
+}
+
+.frame {
+  width: 5880px;
+  height: 2586px;
+  border: 0;
+
+  -ms-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  transform: scale(0.75);
+
+  -ms-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .frame {
+    width: 5880px;
+    height: 2586px;
+    border: 0;
+
+    -ms-transform: scale(0.35);
+    -moz-transform: scale(0.35);
+    -o-transform: scale(0.35);
+    -webkit-transform: scale(0.35);
+    transform: scale(0.35);
+
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+}
